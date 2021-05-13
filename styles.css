@@ -1,0 +1,42 @@
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  } */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 19px;
+    }
+    
+    
+.nome {
+    border-style: solid;
+}
+
+.profissao {
+    border-style: solid;
+}
+
+.xp {
+    border-style: solid;
+}
+
+.caminhoes {
+    border-style: solid;
+}
+
+.familia {
+    border-style: solid;
+}
+
+.contato {
+    border-style: solid;
+}
