@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +19,28 @@
         <div class="profissao">
             <h2>Motorista Profissional</h2>
             <h3>CNH: C</h3>
+            <p><i class="fas fa-truck"></i></p>
         </div>
 
         <div class="xp">
         <thead>Experiência</thead>
         <td id="year"></td>
         </div>
+
+        <div class="lugares">
+            <h2>Lugares que conhece:</h2>
+            <h3>Norte:</h3>
+            <p id="regiaoNorte"></p>
+            <h3>Nordeste:</h3>
+            <p id="regiaoNordeste"></p>
+            <h3>Centro-Oeste:</h3>
+            <p id="regiaoCentroOeste"></p>
+            <h3>Sudeste:</h3>
+            <p id="regiaoSudeste"></p>
+            <h3>Sul:</h3>
+            <p id="regiaoSul"></p>
+            <p id="lugares"></p>
+         </div>  
 
         <div class="caminhoes">
            <thead>Caminhões que já dirigiu:</thead>
@@ -40,7 +57,7 @@
 
 
 
-
+    <script src="lugares.js"></script>
     <!-- Script do Google Abaixo -->
 </body>
 </html>

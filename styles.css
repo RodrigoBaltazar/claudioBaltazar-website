@@ -1,17 +1,7 @@
-/* .flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-  } */
-
-
 .grid-container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 19px;
     }
@@ -26,6 +16,10 @@
 }
 
 .xp {
+    border-style: solid;
+}
+
+.lugares {
     border-style: solid;
 }
 
