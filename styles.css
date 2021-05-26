@@ -1,36 +1,41 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 19px;
+/* MOBILE ABAIXO */
+
+@media only screen and (min-width: 360px) {
+    body{
+        background-color: #ebeff2ce;
     }
-    
-    
-.nome {
-    border-style: solid;
+    /* .nome {
+
+    }
+
+    .profissao {
+         
+    }
+
+    .xp {
+         
+    }
+
+    .lugares {
+         
+    }
+
+    .caminhoes {
+         
+    }
+
+    .familia {
+         
+    }
+
+    .contato {
+         
+    } */
 }
 
-.profissao {
-    border-style: solid;
-}
+/* DESKTOP ABAIXO */
 
-.xp {
-    border-style: solid;
-}
+@media only screen and (min-width: 768px) {
 
-.lugares {
-    border-style: solid;
-}
 
-.caminhoes {
-    border-style: solid;
-}
-
-.familia {
-    border-style: solid;
-}
-
-.contato {
-    border-style: solid;
 }
