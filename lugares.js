@@ -10,11 +10,11 @@ var centroOeste = ["Mato Grosso","Mato Grosso do Sul","Goiás","Distrito Federal
 
 var sul = ["Rio Grande do Sul","Santa Catarina","Paraná"];
 
-document.getElementById("regiaoNorte").innerHTML = norte;
-document.getElementById("regiaoNordeste").innerHTML = nordeste;
-document.getElementById("regiaoSudeste").innerHTML = sudeste;
-document.getElementById("regiaoCentroOeste").innerHTML = centroOeste;
-document.getElementById("regiaoSul").innerHTML = sul;
+// document.getElementById("regiaoNorte").innerHTML = norte;
+// document.getElementById("regiaoNordeste").innerHTML = nordeste;
+// document.getElementById("regiaoSudeste").innerHTML = sudeste;
+// document.getElementById("regiaoCentroOeste").innerHTML = centroOeste;
+// document.getElementById("regiaoSul").innerHTML = sul;
 
 
 
